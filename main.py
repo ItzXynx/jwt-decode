@@ -26,3 +26,4 @@ if __name__ == "__main__":
     if exp:
         expired = datetime.now(timezone.utc).timestamp() > exp
         print(f"expired: {expired}")
+# updated
